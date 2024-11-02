@@ -1,0 +1,292 @@
+.LovelyRunner {
+    height: 70vh;
+    width: 94%;
+    background-image: url(images/payungkuning.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+}
+
+.LovelyRunner h2 {
+    color: ivory;
+    padding: 30px 40px;
+    border: 7px solid ivory;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.LovelyRunner h3 {
+    color: ivory;
+    padding: 20px;
+    position: absolute;
+    bottom: 10%;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*bagian navbar - home page atas*/
+header {
+    background-color: #95abcf; /* Slight transparency */
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: beige ;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #383833  ;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: beige;
+}
+
+.search-button button {
+    background-color: white;
+    color: #383833;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.search-button button:hover {
+    background-color: #6e7267;
+}
+.outline p {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    outline-style: dotted;
+    outline-color: #facd3b;
+    outline-width: 5px;
+    outline-offset: 10px;
+    background-color:#95abcf;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Membuat foto berada di tengah secara vertikal */
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/*box-model*/
+.Drama {
+    position: relative;
+    padding: 30px;
+    border: 8px solid #fadd81;
+    margin: 20px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #91a3b0;
+    width: 1100px;
+    font-family:Verdana;
+    font-size: 17px;
+    font-style: normal;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .outline p {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    outline-style: dotted;
+    outline-color: #facd3b;
+    outline-width: 5px;
+    outline-offset: 10px;
+    background-color:#95abcf;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+  /* list cast Lovely Runner */
+.Cast-Lovely-Runner {
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.Cast-Lovely-Runner {
+    line-height: 1,5;
+    padding: 10px;
+}
+.Cast-Lovely-Runner p { 
+    text-align: justify;
+    line-height: 1.2;
+    font-size: 16px;
+    font-family: Verdana;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+dl.a {
+    list-style:disc;
+    background: beige;
+    padding: 20px;
+    line-height: 1.8;
+    margin-inline-start: 10px;
+    float: left;
+    width: 50%;
+}
+
+dl {
+    margin-bottom: 5px;
+}
+
+dl dt {
+    background: #95abcf;
+    color: beige;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+dl dd {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding: 2px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+dl li {
+    margin-bottom: 5px;
+    margin-left: 5%;
+    font-size: 15px;
+    text-align: justify;
+    opacity: 80%;
+}
+
+.image-LovelyRunner {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 60px;
+    gap: 10px;
+    overflow: hidden;
+    padding: 0;
+    float: right;
+    width: 40%
+}
+
+.image-LovelyRunner img {
+    height: auto;
+    display: block;
+    width: 80%;
+    padding-bottom: 5px;
+}
+/*tabel*/
+.soundtrack {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.soundtrack th, 
+.soundtrack td {
+    border: 1px solid #2b6f7e;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.soundtrack th {
+    background-color: #95abcf;
+    color: rgb(9, 41, 69);
+    font-size: 1.2em;
+}
+
+.soundtrack td img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.soundtrack td {
+    font-size: 15px;
+    color: #1b344c;
+    line-height: 1.5;
+}
+
+.soundtrack tr:hover {
+    background-color: rgb(175, 212, 223);
+}
+/*footer dan icons*/
+footer {
+    background-color: #95abcf; 
+    padding: 10px; 
+    text-align: left; 
+    font-family: Verdana;
+}
+
+.footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1190px; 
+    margin: 10px auto; 
+    padding-bottom: 10px;
+}
+.tagline {
+    padding-top: 20px;
+}
+.kontak {
+    padding-top: 20px;
+    padding-left: 510px;
+}
+.icons {
+    padding-top: 18px;
+    display: flex;
+}
+.fa-brands.fa-instagram.fa-2x {
+    color: #2c3e50;
+    padding-right: 15px;
+}
+.fa-brands.fa-youtube.fa-2x {
+    color: #2c3e50;
+    padding-right: 15px;
+}
+.fa-brands.fa-x-twitter.fa-2x {
+    color: #2c3e50;
+    padding-right: 15px;
+}
